@@ -1,0 +1,94 @@
+
+/* Estilos para la tarjeta */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 32px; /* Aumenta el relleno para hacer la tarjeta más grande */
+  max-width: 1200px; /* Aumenta el ancho máximo de la tarjeta */
+  margin: 20px auto;
+  background-color: #fff;
+}
+
+.map-container {
+  text-align: center;
+}
+
+.map-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.map-button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.map-button:hover {
+  background-color: #0056b3;
+}
+
+.highlighted {
+  background-color: #ffc107; /* Color diferente para el botón destacado */
+}
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .map-container {
+    text-align: center;
+    max-width: 600px;
+  }
+  
+  .map-image {
+    width: 100%;
+    height: auto;
+    border: 2px solid #333;
+    margin-bottom: 20px;
+  }
+  
+  .button-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+  }
+  
+  .map-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .highlighted {
+    background-color: #FFD700;
+  }
+  
+  .map-button:hover {
+    background-color: #45a049;
+  }
+  
