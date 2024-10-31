@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapa Universitario</title>
+  <link rel="stylesheet" href="/mapautm.css">
+  <style>
+    /* Estilos para la tarjeta */
+    .card {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      padding: 32px; /* Aumenta el relleno para hacer la tarjeta más grande */
+      max-width: 1200px; /* Aumenta el ancho máximo de la tarjeta */
+      margin: 20px auto;
+      background-color: #fff;
+    }
+
+    .map-container {
+      text-align: center;
+    }
+
+    .map-image {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .button-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    .map-button {
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #007bff;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .map-button:hover {
+      background-color: #0056b3;
+    }
+
+    .highlighted {
+      background-color: #ffc107; /* Color diferente para el botón destacado */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Contenedor de la tarjeta -->
+  <div class="card">
+    <!-- Contenedor principal -->
+    <div class="map-container">
+      <!-- Imagen del mapa -->
+      <img src="/imagenes/mapa.png" alt="Mapa de la Universidad" class="map-image">
+
+      <!-- Botones -->
+      <div class="button-grid">
+        <button class="map-button">C-106</button>
+        <button class="map-button">F-106</button>
+        <button class="map-button">H-106</button>
+        <button class="map-button">M-106</button>
+        <button class="map-button">T-106</button>
+        <button class="map-button">T-115</button>
+        <button class="map-button">T-108</button>
+        <button class="map-button">M-102</button>
+        <button class="map-button">M-104</button>
+        <button class="map-button">F-104</button>
+        <button class="map-button highlighted">F-106</button>
+        <button class="map-button">C-106</button>
+        <button class="map-button">C-106</button>
+        <button class="map-button">C-106</button>
+        <button class="map-button">C-106</button>
+        <button class="map-button">M-216</button>
+        <button class="map-button">M-217</button>
+        <button class="map-button">T-116</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
